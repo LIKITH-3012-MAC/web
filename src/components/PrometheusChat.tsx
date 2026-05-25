@@ -41,9 +41,7 @@ const languages: LanguageOption[] = [
   { code: 'de-DE', name: 'German', flag: '🇩🇪' },
 ];
 
-const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-  ? 'http://localhost:8000'
-  : 'https://portfolio-likith.onrender.com';
+const API_BASE = 'https://portfolio-likith.onrender.com';
 
 declare global {
   interface Window {
